@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Music Personal Website</title>
+		<link rel="stylesheet" href="layout.css" />
+	</head>
+	<body>
+		<header>
+			<h1>
+				<a href="./index.html">My Personal Music</a>
+			</h1>
+			<nav>
+				<ul>
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="./page2.html">Event</a></li>
+					<li><a href="./page3.html">Other Music Site</a></li>
+					<li><a href="./page4.html">Music</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section class="form-container">
+				<form action="/send" method="post">
+					<fieldset>
+						<legend>Send Event</legend>
+						<div>
+							<label for="firstName">first name</label>
+							<input
+								type="text"
+								id="firstName"
+								name="first_name"
+							/>
+						</div>
+						<div>
+							<label for="lastName">last name</label>
+							<input type="text" id="lastName" name="last_name" />
+						</div>
+						<div>
+							<label for="sign">sign term</label>
+							<input
+								type="checkbox"
+								id="sign"
+								name="sign_value"
+							/>
+						</div>
+						<div class="textarea-container">
+							<label for="request">Write down your request</label>
+							<textarea
+								name="request"
+								id="request"
+								cols="30"
+								rows="10"
+							></textarea>
+						</div>
+						<button type="submit">Submit</button>
+					</fieldset>
+				</form>
+			</section>
+		</main>
+	</body>
+</html>

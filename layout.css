@@ -1,0 +1,111 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+li {
+	list-style: none;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+header nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header nav ul li {
+	margin-right: 100px;
+}
+header nav ul li a {
+	display: block;
+	font-size: 30px;
+}
+header h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+}
+header h1 a {
+	display: block;
+	color: #b7b6c1;
+}
+
+/* index */
+.index-main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+section img {
+	width: 500px;
+	height: 500px;
+	background-color: aliceblue;
+}
+
+/* page2 */
+.form-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+fieldset {
+	width: 100%;
+}
+legend {
+	border: 1px solid black;
+	margin-left: 10px;
+}
+fieldset div {
+	margin-top: 30px;
+}
+fieldset label {
+	font-size: 30px;
+}
+fieldset button {
+	background-color: transparent;
+	font-size: 24px;
+	margin-top: 10px;
+}
+.textarea-container {
+	display: flex;
+	flex-direction: column;
+}
+
+/* page3 */
+.music-site {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.music-site ul {
+	width: 500px;
+}
+
+.music-site ul li {
+	border: 1px solid black;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 50px;
+}
+
+/* page4 */
+.img-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+}
+.img-container div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 50px 0;
+}
